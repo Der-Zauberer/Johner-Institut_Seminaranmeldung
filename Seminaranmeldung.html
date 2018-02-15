@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="de">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+		
+		<title>Johner-Institut</title>
+		<link rel="icon" href="Icon.ico">
+
+		<!-- Bootstrap -->
+		<link href="css/bootstrap.min.css" rel="stylesheet">
+	</head>
+	<body>
+
+		<div class="container-fluid text-white" style="background-color:red;">
+			</br><img src="Johner-Institut.png" alt=""></br></br>
+		</div></br></br>
+		<div class="container" style="background-color:#F3F3F3">
+			</br>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2"><h1 id="words">Seminaranmeldung</h1></br></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Seminar: *</div>
+				<div class="col-sm-6">
+					<select class="form-control">
+						<option value="1" selected>Medizinische Software (Kompaktseminar)</option>
+						<option value="2">Seminar / Workshop zur klinischen Bewertung</option>
+						<option value="3">MDR-Seminar</option>
+					</select>
+				</div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Seminar Datum: *</div>
+				<div class="col-sm-2"><input type="text" name ="datum" class="form-control" placeholder="TT/MM/JJ"></div>
+				<div class="col-sm-6"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Vorname: *</div>
+				<div class="col-sm-6"><input type="text" name="vorname" class="form-control" placeholder="Vorname"></div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Nachname: *</div>
+				<div class="col-sm-6"><input type="text" name="nachname" class="form-control" placeholder="Nachname"></div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Straße, Nr: *</div>
+				<div class="col-sm-5"><input type="text" name="straße" class="form-control" placeholder="Straße"></div>
+				<div class="col-sm-1"><input type="text" name="hnr" class="form-control" placeholder="Nr."></div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">PLZ, Ort: *</div>
+				<div class="col-sm-2"><input type="text" name="plz" class="form-control"placeholder="PLZ"></div>
+				<div class="col-sm-4"><input type="text" name="ort" class="form-control"placeholder="Ort / Stadt"></div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Email: *</div>
+				<div class="col-sm-6"><input type="text" name="email" class="form-control" name="email" placeholder="E-mail"></div>
+				<div class="col-sm-2"></div></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-2" id="words">Telefonnummer: *</div>
+				<div class="col-sm-6"><input type="text" name="telefonnummer" class="form-control" placeholder="Telefonnummer"></div>
+				<div class="col-sm-2"></div></br></br></br>
+			</div>
+			<div class="row">
+				<div class="col-sm-4"></div>
+				<div class="col-sm-6"><input type="submit" onclick="abfrage()" class="btn btn-danger" style="background-color:red;" value="Absenden"></div>
+				<div class="col-sm-2"></div></br></br></br>
+			</div>
+		</div>
+		
+		<script type="text/javascript" src="script.js">
+		</script>
+		
+	</body>
+</html>
